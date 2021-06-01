@@ -1,0 +1,54 @@
+body {
+ 
+  background-image: url(../img/adn.png);
+}
+header {
+text-align: center;
+ margin: 15px;
+ }
+ img:hover { 
+ 	transform: scale(1.1);
+  }
+ div.a{
+ 	position: absolute;
+ 	right: 200px;
+ }
+
+  div.d{
+ 	position: relative;
+ 	display: inline-block;
+ 	right : 300px;
+ 	top: 0px;
+ }
+
+ div.d-c{
+ 	display: none;
+ 	position: absolute;
+ 	background-color: transparent;
+ 	min-width: 160px;
+ 	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ }
+
+ .d:hover .d-c{
+ 	display: block;
+ }
+
+ div.t{
+ margin: 200px;
+ }
+
+header {
+			size: 1250px;
+			height: 320px;
+				background-color: white, gray;
+				background-size: 1250px 320px;
+				position: relative;
+}
+
+ #insta {
+ 	text-align: right;
+ 	margin-top: 10px;
+ 	position: relative;
+ 	right: 0px;
+ 	top: 0px;
+ }
